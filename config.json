@@ -6,45 +6,72 @@
         { "name": "Spotify", "url": "https://open.spotify.com/" },
         { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
         { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
+        { "name": "Instagram", "url": "https://www.instagram.com/" }
       ]
     },
     { "name": "work",
       "color": "#26A69A",
       "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+        {
+          "name": "Confluence",
+          "url": "https://zendrive.atlassian.net/wiki/home"
+        },
+        {
+          "name": "Jira",
+          "url": "https://zendrive.atlassian.net/jira/your-work"
+        },
+        {
+          "name": "Trip Dashboard",
+          "url": "https://tripdashboard.in/board/login"
+        },
+        {
+          "name": "Loss Control",
+          "url": "https://zendrive.atlassian.net/jira/servicedesk/projects/LCR/queues/custom/104"
+        },
+        { "name": "Gerrit", "url": "https://gerrit.zendrive.com" }
       ]
     },
     { "name": "social",
       "links": [
         { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
+        {
+          "name": "Unixporn Love",
+          "url": "https://deepjyoti30.github.io/unixporn-love/"
+        },
         { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
+        {
+          "name": "3D Printing",
+          "url": "https://www.reddit.com/user/ebruning/m/3dprinting/"
+        },
+        {
+          "name": "Home Lab",
+          "url": "https://www.reddit.com/user/ebruning/m/homelab/"
+        }
       ]
     },
     {
       "name": "Others",
       "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+        {
+          "name": "Fairmatic Dashboard",
+          "url": "https://datastudio.google.com/u/0/reporting/a536b1d6-0cda-4591-9168-33961bbb6ede/page/VgD?utm_source=google-datastudio&utm_medium=email&utm_campaign=scheduled-report"
+        },
+        { "name": "Gmail", "url": "http://gmail.com/" },
+        { "name": "EpochConverter", "url": "https://www.epochconverter.com/" },
+        { "name": "SalesForce", "url": "https://zendrive.my.salesforce.com/" }
       ]
     }
   ],
   "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "user": "Ethan",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
   "disable24Hour": false,
-  "disableWeather": true,
+  "disableWeather": false,
   "timeZone": "America/Los_Angeles",
   "weatherConf": {
-    "location": "Pune India",
-    "unit": "cel"
+    "location": "Fullerton, US",
+    "unit": "fah"
   }
 }
