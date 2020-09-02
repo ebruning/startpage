@@ -1,16 +1,8 @@
 {
   "squares": [
-    { "name": "media",
-      "color": "red",
-      "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Instagram", "url": "https://www.instagram.com/" }
-      ]
-    },
-    { "name": "work",
-      "color": "#26A69A",
+    {
+      "name": "zendrive",
+      "color": "#01aa83",
       "links": [
         {
           "name": "Confluence",
@@ -24,41 +16,80 @@
           "name": "Trip Dashboard",
           "url": "https://tripdashboard.in/board/login"
         },
+        { 
+          "name": "Gerrit", 
+          "url": "https://gerrit.zendrive.com" 
+        },
+        { "name": "SalesForce", "url": "https://zendrive.my.salesforce.com/" }
+      ]
+    },
+    {
+      "name": "fairmatic",
+      "color": "#29419a",
+      "links": [
+        {
+          "name": "Dashboard",
+          "url": "https://datastudio.google.com/u/0/reporting/a536b1d6-0cda-4591-9168-33961bbb6ede/page/VgD?utm_source=google-datastudio&utm_medium=email&utm_campaign=scheduled-report"
+        },
+        {
+          "name": "Sharepoint",
+          "url": "https://zendr.sharepoint.com/sites/InsuranceTeam"
+        },
         {
           "name": "Loss Control",
           "url": "https://zendrive.atlassian.net/jira/servicedesk/projects/LCR/queues/custom/104"
         },
-        { "name": "Gerrit", "url": "https://gerrit.zendrive.com" }
+        {
+          "name": "Demo Dashboard",
+          "url": "https://app.fairmatic.com/demo-fairmatic/overview?start_date=2018-02-10&end_date=2018-03-10&group_id=All%20Groups&location=All%20Locations"
+        }
       ]
     },
-    { "name": "social",
+    { "name": "documentation",
+
       "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
+        { "name": "Fairmatic", "url": "https://docs-fairmatic.zendrive.com/" },
+        { "name": "ZendriveSDK Reference ", "url": "https://zendrive-root.bitbucket.io/ios/docs/latest/index.html" }
+      ]
+    },
+    { "name": "development",
+      "links": [
+        { 
+          "name": "Firebase", 
+          "url": "https://console.firebase.google.com/u/0/project/zendrive-copilot/overview?pli=1" },
         {
-          "name": "Unixporn Love",
-          "url": "https://deepjyoti30.github.io/unixporn-love/"
+          "name": "Product Backlog",
+          "url": "https://docs.google.com/spreadsheets/d/1EKCTNgZaRwTmCWHRxi2VN7YF9UUgV0MGg3h2LdpYuSE/edit#gid=593848616"
         },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        {
-          "name": "3D Printing",
-          "url": "https://www.reddit.com/user/ebruning/m/3dprinting/"
+        { 
+          "name": "Supported Devices", 
+          "url": "https://docs.google.com/spreadsheets/d/13gwa3pYbjQoR1hCR2VSkE3Y-BPZioWPj1unWgIdI7pI/edit#gid=632686749" 
         },
         {
-          "name": "Home Lab",
-          "url": "https://www.reddit.com/user/ebruning/m/homelab/"
+          "name": "Twilio (SMS)",
+          "url": "https://www.twilio.com/login"
+        },
+        {
+          "name": "Mandrill (email)",
+          "url": "https://mandrillapp.com/"
         }
       ]
     },
     {
-      "name": "Others",
+      "name": "other",
       "links": [
-        {
-          "name": "Fairmatic Dashboard",
-          "url": "https://datastudio.google.com/u/0/reporting/a536b1d6-0cda-4591-9168-33961bbb6ede/page/VgD?utm_source=google-datastudio&utm_medium=email&utm_campaign=scheduled-report"
+        { 
+          "name": "EpochConverter", 
+          "url": "https://www.epochconverter.com/" 
         },
-        { "name": "Gmail", "url": "http://gmail.com/" },
-        { "name": "EpochConverter", "url": "https://www.epochconverter.com/" },
-        { "name": "SalesForce", "url": "https://zendrive.my.salesforce.com/" }
+        {
+          "name": "Kibana Logs",
+          "url": "https://logs.zendrive.com/_plugin/kibana/app/kibana#/home?_g=()"
+        },
+        {
+          "name": "Kibana Trips",
+          "url": "https://search.zendrive.com/_plugin/kibana/app/kibana#/home?_g=()"
+        }        
       ]
     }
   ],
